@@ -1,7 +1,14 @@
+import DataCount from "@/components/DataCount";
+import Featured from "@/components/Featured";
+import HeroSection from "@/components/HeroSection";
+import { Box } from "@mui/material";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Hello World</h1>
-    </main>
+    <Box mb={20}>
+      <HeroSection />
+      <Featured />
+      <DataCount />
+    </Box>
   );
 }

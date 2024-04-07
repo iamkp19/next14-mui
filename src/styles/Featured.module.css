@@ -1,0 +1,14 @@
+.brandCover {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 0 auto;
+  place-items: center;
+
+  @media (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 700px) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
