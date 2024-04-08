@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import BgOrange from "@/public/BgOrange.svg";
 import BgYellow from "@/public/BgYellow.svg";
