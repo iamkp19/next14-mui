@@ -41,6 +41,7 @@ const DataCount = () => {
           xs: "85px",
           sm: "10px",
         },
+        mb: "100px",
       }}
     >
       {infoItem.map((item) => (

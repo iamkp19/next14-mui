@@ -13,7 +13,6 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { SlMenu } from "react-icons/sl";
-import { colors } from "@mui/material";
 
 const drawerWidth = 240;
 
